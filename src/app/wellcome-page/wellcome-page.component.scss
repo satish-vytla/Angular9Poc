@@ -1,0 +1,18 @@
+/* .example-card {
+    max-width: 400px;
+  } */
+  
+  .example-header-image {
+    background-image: url('../../assets/images/p2.jpg');
+    background-size: cover;
+  }
+  
+  .example-radio-group {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+  }
+  
+  .example-radio-button {
+    margin: 5px;
+  }

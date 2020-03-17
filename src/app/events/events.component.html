@@ -1,0 +1,19 @@
+<div class="flexone" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="1rem" fxLayoutAlign="stretch">
+    <mat-card class="example-card">
+        <mat-card-header>
+            <div mat-card-avatar class="example-header-image"></div>
+            <mat-card-title>{{parentdata.CountryName.CountryName}}</mat-card-title>
+            <mat-card-subtitle>{{parentdata.Season }}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="../../assets/images/leafhand.jpg" alt="Photo of a Shiba Inu">
+        <mat-card-content>
+            <p>
+                You can swipe card now and stop by on {{parentdata.Date}} at {{parentdata.Location }}
+            </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button>LIKE</button>
+            <button mat-button>SHARE</button>
+        </mat-card-actions>
+    </mat-card>
+    </div>

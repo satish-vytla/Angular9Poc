@@ -1,0 +1,28 @@
+.example-button-row button,
+.example-button-row a {
+  margin-right: 8px;
+  background: skyblue
+}
+
+.example-header-image {
+  background-image: url('../../assets/images/p2.jpg');
+  background-size: cover;
+}
+/* flex
+ */
+
+
+/*  section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ }
+.media { 
+  min-width: 0;
+  margin: 5px;
+}
+img {
+  width: 450px;
+  max-width: 100%; 
+  max-height: 450px; 
+} */

@@ -1,0 +1,40 @@
+<!-- <div class="example-button-row"> -->
+    <form [formGroup]="angForm" method="post" (ngSubmit)="SaveDataToDB()" novalidate class="example-form">
+
+        <mat-card>
+            <div class="example-container">
+                <mat-form-field>
+                    <input matInput placeholder="Full Name" formControlName="FullName" #FullName>
+                </mat-form-field>
+    
+                <mat-form-field>
+                    <input matInput placeholder="Adress" formControlName="Adress" #Adress>
+                </mat-form-field>
+    
+                <mat-form-field>
+                    <input matInput placeholder="Email" formControlName="Email" #Email>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="Enter Message" formControlName="EnterMessage" #EnterMessage>
+                </mat-form-field>
+                <mat-form-field>
+                    <input matInput placeholder="PhoneNumber" type="number" class="example-right-align" formControlName="PhoneNumber" #PhoneNumber>
+                </mat-form-field>
+    
+            </div>
+            <div fxLayout="column" fxLayoutAkign="center stretch" class="example-button-row">
+                <!-- <button mat-raised-button color="accent">Save</button> -->
+                <button mat-raised-button color="accent"  type="submit" mat-raised-button color="accent" [disabled]="angForm.pristine || angForm.invalid">Save</button>
+                <!-- <a mat-raised-button routerLink=".">Link</a> -->
+    
+                <!-- <button </button> -->
+    
+            </div>
+            <!-- <app-snack-bar-notifications></app-snack-bar-notifications> -->
+    
+            <!-- <snak-bar></snak-bar> -->
+    </mat-card>
+    </form>
+    <!-- </div> -->
+    
+    

@@ -1,0 +1,19 @@
+
+<mat-toolbar color="primary">
+  <div class='menu-container'>
+      <!-- <mat-toolbar-row> -->
+          <span></span>
+          <div>
+              <a mat-button [routerLink]="'/'"> Home Page </a>
+              <a mat-button [routerLink]="'/dash'"> DashBoard </a>
+              <a mat-button [routerLink]="'/userdetails'"> Login </a>
+
+          </div>
+
+      <!-- </mat-toolbar-row> -->
+  </div>
+</mat-toolbar>
+<main>
+  <router-outlet></router-outlet>
+</main>
+<load-spinner></load-spinner>
